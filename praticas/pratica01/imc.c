@@ -4,8 +4,10 @@ int main() {
 
     printf("Digite o peso (em kg): ");
     scanf("%f", &peso);
+
     printf("Digite a altura (em metros): ");
     scanf("%f", &altura);
+
     imc = peso / (altura * altura);
 
     printf("O IMC eh: %.2f\n", imc);
@@ -19,6 +21,6 @@ int main() {
     } else {
         printf("Classificacao: Obesidade\n");
     }
-
-    return 0;
+        
+        return 0;
 }

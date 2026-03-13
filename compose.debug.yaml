@@ -1,0 +1,6 @@
+services:
+  ed20261:
+    image: ed20261
+    build:
+      context: .
+      dockerfile: ./Dockerfile
