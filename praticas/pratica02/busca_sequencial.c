@@ -12,7 +12,6 @@ int main() {
     printf("Digite o valor a ser buscado: ");
     scanf("%d", &valor);
 
-    // Busca sequencial
     for (i = 0; i < 100; i++) {
         if (vetor[i] == valor) {
             posicao = i;
@@ -27,3 +26,5 @@ int main() {
 
     return 0;
 }
+
+// Reenvio
