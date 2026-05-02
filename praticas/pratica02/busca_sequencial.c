@@ -26,4 +26,10 @@ int main() {
         printf("Valor nao encontrado.\n");
 
     return 0;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+// Reenvio 
+>>>>>>> Stashed changes
