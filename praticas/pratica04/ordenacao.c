@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "ordenacao.h"
 
-
-
 void troca(int *a, int *b ){
     int aux = *a;
     *a = *b;
@@ -60,4 +58,3 @@ void selection_sort(int v[], int n) {
        if(min != i)
            troca(&v[i], &v[min]);
    }
-}

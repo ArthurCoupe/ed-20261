@@ -14,6 +14,3 @@ float conta_depositar(Conta *c, float deposito);
 float conta_sacar(Conta *c,float saque);
 void conta_ver_saldo(Conta *c);
 void conta_destruir(Conta *c);
-
-
-#endif
