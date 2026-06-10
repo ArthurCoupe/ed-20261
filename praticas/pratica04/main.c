@@ -45,6 +45,3 @@ int main(){
 
     imprimir_vetor(vet, tamanho);
     printf("depois de ordenar em %fs\n", duracao);
-
-    return 0;
-}
